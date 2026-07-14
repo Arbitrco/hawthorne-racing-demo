@@ -10,6 +10,7 @@ Analyse the supplied meeting transcript and produce a decision intelligence repo
 
 - Transcript file from `data/transcripts/`
 - Current decision ledger from `data/decision-ledger.json`
+- Current `decision-log.md`
 
 ## Steps
 
@@ -21,12 +22,15 @@ Analyse the supplied meeting transcript and produce a decision intelligence repo
 4. Cross-reference the ledger: link related prior decisions, flag contradictions
    with earlier calls, update status of previously open items.
 5. Append new entries to the ledger.
-6. Generate the report in workspace voice (Block 6): Situation, Options
+6. Append a matching row per decision to `decision-log.md` (next unused `#`,
+   never renumbered), so the human-readable log stays in sync with the ledger.
+7. Generate the report in workspace voice (Block 6): Situation, Options
    considered, Decisions made, Bias flags, Open items.
 
 ## Output contract
 
-- One-page report per Block 6 conventions, plus ledger diff.
+- One-page report per Block 6 conventions, plus ledger diff and
+  `decision-log.md` diff.
 - Every claim cites transcript lines. Every bias flag names the pattern, not a person.
 - Report footer: generation timestamp, source file, reviewing owner field (blank
   for human completion).
