@@ -1,2 +1,6 @@
 # Personal, local-only workspace — never synced to the shared repo
-personal/
+03-personal/
+
+# Graphify generated output and temp files (regenerable via /graphify)
+graphify-out/
+.graphify_*

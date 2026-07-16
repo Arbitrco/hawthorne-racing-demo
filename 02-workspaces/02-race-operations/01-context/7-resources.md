@@ -4,11 +4,11 @@
 
 | Resource | Location | Refresh |
 |----------|----------|---------|
-| Meeting transcripts | `data/transcripts/` (race weekend + factory strategy meetings) | Per meeting |
-| Decision ledger | `data/decision-ledger.json` | Per analysis run |
-| Tyre model summaries | Strategy team export, `data/tyre-models/` | Per event |
-| Timing data extracts | `data/timing/` (sanitised, no rival confidential data) | Per session |
-| Regulation summaries | `data/regs/` (sporting reg digests, human-verified) | Per FIA update |
+| Meeting transcripts | `03-data/transcripts/` (race weekend + factory strategy meetings) | Per meeting |
+| Decision ledger | `03-data/decision-ledger.json` | Per analysis run |
+| Tyre model summaries | Strategy team export, `03-data/tyre-models/` | Per event |
+| Timing data extracts | `03-data/timing/` (sanitised, no rival confidential data) | Per session |
+| Regulation summaries | `03-data/regs/` (sporting reg digests, human-verified) | Per FIA update |
 
 ## Knowledge bases
 

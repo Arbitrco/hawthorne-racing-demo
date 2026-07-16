@@ -1,0 +1,17 @@
+{
+  "_comment": "Project-scoped MCP servers for Hawthorne Racing. Claude Code auto-loads any server defined under \"mcpServers\" and prompts you to approve project MCP servers the first time the repo is opened. The \"_examples\" block is NOT read by Claude Code (only \"mcpServers\" is) — to enable a server, copy an entry from \"_examples\" into \"mcpServers\" and edit it. Prefer ${ENV_VAR} placeholders over hard-coded secrets; never commit tokens.",
+  "mcpServers": {},
+  "_examples": {
+    "local-stdio-server": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
+    },
+    "remote-http-server": {
+      "type": "http",
+      "url": "https://your-server.example.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${EXAMPLE_MCP_TOKEN}"
+      }
+    }
+  }
+}

@@ -10,11 +10,11 @@ Trackside and factory decision support: strategy meetings, debriefs, race weeken
 | 2 Company | Inherit | |
 | 3 Products/Services | Inherit | This workspace serves the on-track performance offering |
 | 4 Context | Extend | Adds live race weekend context below |
-| 5 Role | Define | `5-role.md` |
-| 6 Voice | Define | `6-voice.md` |
-| 7 Resources | Define | `7-resources.md` |
+| 5 Role | Define | `01-context/5-role.md` |
+| 6 Voice | Define | `01-context/6-voice.md` |
+| 7 Resources | Define | `01-context/7-resources.md` |
 | 8 Rules | Extend | Extensions listed below. Global rules still apply in full |
-| 9 Requests | Define | `9-requests/` |
+| 9 Requests | Define | `02-skills/9-requests/` |
 
 ## Block 4 extension (workspace context)
 
@@ -33,5 +33,6 @@ Trackside and factory decision support: strategy meetings, debriefs, race weeken
 
 ## Load instruction (on entering this workspace)
 
-Load: this file, `5-role.md`, `6-voice.md`, `7-resources.md`.
-Load from `9-requests/` only the request file matching the task at hand.
+Load: this file, `01-context/5-role.md`, `01-context/6-voice.md`,
+`01-context/7-resources.md`.
+Load from `02-skills/9-requests/` only the request file matching the task at hand.

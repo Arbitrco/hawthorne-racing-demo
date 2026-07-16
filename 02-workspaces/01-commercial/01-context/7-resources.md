@@ -4,11 +4,11 @@
 
 | Resource | Location | Refresh |
 |----------|----------|---------|
-| Verified analytics export | `data/analytics/` (broadcast reach, social, sentiment) | Weekly |
-| Sponsor register | `data/sponsors.json` (contract IDs, tiers, renewal dates; no terms) | On change |
-| Activation calendar | `data/activations/` | Weekly |
-| Report templates | `templates/` (one per sponsor tier) | On brand update |
-| Prospect research notes | `data/prospects/` | Per engagement |
+| Verified analytics export | `03-data/analytics/` (broadcast reach, social, sentiment) | Weekly |
+| Sponsor register | `03-data/sponsors.json` (contract IDs, tiers, renewal dates; no terms) | On change |
+| Activation calendar | `03-data/activations/` | Weekly |
+| Report templates | `03-data/templates/` (one per sponsor tier) | On brand update |
+| Prospect research notes | `03-data/prospects/` | Per engagement |
 
 ## Knowledge bases
 

@@ -8,8 +8,8 @@ Analyse the supplied meeting transcript and produce a decision intelligence repo
 
 ## Inputs
 
-- Transcript file from `data/transcripts/`
-- Current decision ledger from `data/decision-ledger.json`
+- Transcript file from `03-data/transcripts/`
+- Current decision ledger from `03-data/decision-ledger.json`
 - Current `decision-log.md`
 
 ## Steps

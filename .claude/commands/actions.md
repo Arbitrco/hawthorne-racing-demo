@@ -6,9 +6,9 @@ Manage one of three lists:
 
 | Target | File | Scope |
 |---|---|---|
-| `personal` | `personal/actions.md` | Local-only, gitignored, spans all workspaces |
-| `race-operations` | `workspaces/race-operations/todo.md` | Shared, tracked in repo, Race Operations only |
-| `commercial` | `workspaces/commercial/todo.md` | Shared, tracked in repo, Commercial only |
+| `personal` | `03-personal/actions.md` | Local-only, gitignored, spans all workspaces |
+| `race-operations` | `02-workspaces/02-race-operations/todo.md` | Shared, tracked in repo, Race Operations only |
+| `commercial` | `02-workspaces/01-commercial/todo.md` | Shared, tracked in repo, Commercial only |
 
 ## Choosing a target
 
@@ -18,7 +18,7 @@ The user may name the target explicitly as the first word after `/actions`
 - If a workspace is currently loaded this session (via `/prime` or
   `/switch`), target that workspace's `todo.md`.
 - Otherwise (no workspace loaded, or Top-level), target
-  `personal/actions.md`.
+  `03-personal/actions.md`.
 
 State which target was resolved before acting, unless it's already obvious
 from context (e.g. immediately after naming it explicitly).
@@ -45,8 +45,8 @@ explicit target from above and everything else follows it:
 - Preserve the preamble and column headers at the top of each file.
 - After any write, briefly confirm what changed, including which target it went to (e.g. "Added #3 to Race Operations todo: Confirm tyre allocation for round 13 — Head of Strategy, High, open").
 - If the user gives only a fragment ("add a thing about Sandy"), ask for the full action description before writing.
-- `personal/` is gitignored — changes to `personal/actions.md` are local-only, never commit it.
-- `todo.md` files under `workspaces/` are shared and tracked in the repo. Editing one changes a file other people will see; don't commit changes unless the user asks you to.
+- `03-personal/` is gitignored — changes to `03-personal/actions.md` are local-only, never commit it.
+- `todo.md` files under `02-workspaces/` are shared and tracked in the repo. Editing one changes a file other people will see; don't commit changes unless the user asks you to.
 - A workspace's `todo.md` inherits that workspace's confidentiality rules (Block 8 extensions, e.g. R-OPS-1–3 or R-COM-1–3) — don't write Tier 1/Tier 2 confidential detail into a description that doesn't need it.
 - This command works independent of whether canvas blocks are loaded, but resolving the default target depends on session state from `/prime`/`/switch` as described above.
 

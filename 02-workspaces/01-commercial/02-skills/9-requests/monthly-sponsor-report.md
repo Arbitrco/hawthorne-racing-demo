@@ -7,10 +7,10 @@ Director review.
 
 ## Inputs
 
-- Sponsor contract ID (from `data/sponsors.json`)
+- Sponsor contract ID (from `03-data/sponsors.json`)
 - Verified analytics export for the reporting period
 - Activation calendar entries for the period
-- The sponsor's tier template from `templates/`
+- The sponsor's tier template from `03-data/templates/`
 
 ## Steps
 

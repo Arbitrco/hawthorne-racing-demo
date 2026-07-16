@@ -2,7 +2,7 @@
 
 Shared, tracked-in-repo record of decisions made in this workspace. Every
 significant decision gets a named owner and a recorded rationale, per
-`canvas/2-company.md`: "the debrief is sacred." Unlike Race Operations,
+`01-global/01-context/2-company.md`: "the debrief is sacred." Unlike Race Operations,
 Commercial has no separate machine-readable ledger — this file is the
 record of decisions such as renewal terms posture, prospect qualification
 calls, and activation approvals (never the commercial terms themselves —
