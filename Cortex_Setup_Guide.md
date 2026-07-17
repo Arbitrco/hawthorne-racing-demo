@@ -243,7 +243,7 @@ Go to Part 4.
 
 Use this if you'd rather refill a proven structure than design your own. The Hawthorne Racing demo Cortex is the same one shown in the session.
 
-**Template repo:** `https://github.com/[HAWTHORNE-REPO-URL]`
+**Template repo:** `https://github.com/Arbitrco/hawthorne-racing-demo`
 
 ### B1. Copy the template into your own account
 
