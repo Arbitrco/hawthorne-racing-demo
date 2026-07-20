@@ -9,6 +9,7 @@
 | Tyre model summaries | Strategy team export, `03-data/tyre-models/` | Per event |
 | Timing data extracts | `03-data/timing/` (sanitised, no rival confidential data) | Per session |
 | Regulation summaries | `03-data/regs/` (sporting reg digests, human-verified) | Per FIA update |
+| Race calendar | `01-global/03-data/race-calendar-2026.md` (global; 24 rounds, weekends, sprint flags; public data) | Per FIA update |
 
 ## Knowledge bases
 
