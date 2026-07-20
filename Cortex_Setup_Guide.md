@@ -371,7 +371,7 @@ Everyone does this part, whichever path you took.
 graphify builds a knowledge graph of your Cortex so Claude can understand how everything connects without reading every file every time.
 
 ```
-pip install graphifyy
+pip install graphify
 ```
 
 Then run it inside your Cortex:
@@ -487,7 +487,7 @@ Someone pushed changes since your last pull. Run `git pull`, resolve anything Gi
 You need a Claude Pro subscription at claude.ai. Claude Code uses your Pro account, not a separate API key. Follow the authentication prompts.
 
 **graphify fails to install**
-Make sure Python is installed and working first (`python --version`). If pip is not found, try `python -m pip install graphifyy`.
+Make sure Python is installed and working first (`python --version`). If pip is not found, try `python -m pip install graphify`.
 
 ---
 
